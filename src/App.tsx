@@ -440,7 +440,7 @@ interface BaixaDetails {
 
 // PDFs carregados da pasta public/
 // Coloque os arquivos em: public/template.pdf e public/declaracao.pdf
-const TEMPLATE_PDF_URL = '/template1.pdf';
+const TEMPLATE_PDF_URL = '/template.pdf';
 const DECLARACAO_PDF_URL = '/Documento Transferência - Site V2.pdf';
 
 const FILIAIS: Record<string, { cidade: string; endereco: string }> = {
